@@ -13,8 +13,8 @@
 		044E49231DCB335F001641B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044E49211DCB335F001641B2 /* Main.storyboard */; };
 		044E49251DCB335F001641B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044E49241DCB335F001641B2 /* Assets.xcassets */; };
 		044E49281DCB335F001641B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044E49261DCB335F001641B2 /* LaunchScreen.storyboard */; };
-		044EE05B1DCB4B0500EB5683 /* MyHeartWillGoOn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 044EE05A1DCB4B0500EB5683 /* MyHeartWillGoOn.mp3 */; };
 		044EE05D1DCB4B2C00EB5683 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044EE05C1DCB4B2C00EB5683 /* AVFoundation.framework */; };
+		04ABCEF91DCC6556001BCEBC /* myMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04ABCEF81DCC6556001BCEBC /* myMusic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		044E49241DCB335F001641B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044E49271DCB335F001641B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		044E49291DCB335F001641B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		044EE05A1DCB4B0500EB5683 /* MyHeartWillGoOn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MyHeartWillGoOn.mp3; sourceTree = "<group>"; };
 		044EE05C1DCB4B2C00EB5683 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		04ABCEF81DCC6556001BCEBC /* myMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = myMusic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 		044E49171DCB335F001641B2 /* APMusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				044EE05A1DCB4B0500EB5683 /* MyHeartWillGoOn.mp3 */,
+				04ABCEF81DCC6556001BCEBC /* myMusic.mp3 */,
 				044E491B1DCB335F001641B2 /* AppDelegate.h */,
 				044E491C1DCB335F001641B2 /* AppDelegate.m */,
 				044E491E1DCB335F001641B2 /* ViewController.h */,
@@ -145,8 +145,8 @@
 			files = (
 				044E49281DCB335F001641B2 /* LaunchScreen.storyboard in Resources */,
 				044E49251DCB335F001641B2 /* Assets.xcassets in Resources */,
-				044EE05B1DCB4B0500EB5683 /* MyHeartWillGoOn.mp3 in Resources */,
 				044E49231DCB335F001641B2 /* Main.storyboard in Resources */,
+				04ABCEF91DCC6556001BCEBC /* myMusic.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
